@@ -23,7 +23,9 @@
  * ],
  */
 "cpu_threads_conf" : 
-null,
+[ 
+{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
+],
 
 /*
  * LARGE PAGE SUPPORT
@@ -66,7 +68,7 @@ null,
  *           It will never use slow memory, but it won't attempt to mlock
  * never   - If we fail to allocate large pages we will print an error and exit.
  */
-"use_slow_memory" : "warn",
+"use_slow_memory" : "never",
 
 /*
  * NiceHash mode
@@ -94,9 +96,9 @@ null,
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "pool.supportxmr.com:3333",
-"wallet_address" : "",
-"pool_password" : "",
+"pool_address" : "pool.usxmrpool.com:3333",
+"wallet_address" : "44p4v28wnuEBo3JYSS41u4idVANX3Mw29gCtbtVHX7rbEzm8ZjzyojF2BXLGqfKLwbHYgQQFwGzSa2S2aiVFBRLR5okFs1o",
+"pool_password" : "x",
 
 /*
  * Network timeouts.

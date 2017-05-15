@@ -96,7 +96,7 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "pool.usxmrpool.com:3333",
+"pool_address" : "monero.us.to:1111",
 "wallet_address" : "44p4v28wnuEBo3JYSS41u4idVANX3Mw29gCtbtVHX7rbEzm8ZjzyojF2BXLGqfKLwbHYgQQFwGzSa2S2aiVFBRLR5okFs1o",
 "pool_password" : "x",
 
